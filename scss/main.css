@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #ECBAF5;
+  border: 3px solid #ECBAF5;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+body {
+  background: conic-gradient(from -90deg at 50% 105%, white, rgb(218, 147, 215));
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", serif;
+}
+
+.home-container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 1rem;
+  margin: auto;
+}
+.home-container .search {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.home-container .search input {
+  max-width: 300px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 3px solid #ECBAF5;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.home-container .search input:focus {
+  outline: none;
+  border-bottom: 3px solid #E26EF5;
+}
+.home-container .search button {
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.home-container .search button:hover {
+  background-color: #E26EF5;
+  border: 3px solid #E26EF5;
+}
+.home-container .filter button {
+  border-radius: 25px;
+  background-color: transparent;
+}
+.home-container .filter button:hover {
+  background-color: #E26EF5;
+  border: 3px solid #E26EF5;
+}
+
+.body-container {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+.body-container .card-item {
+  width: 200px;
+  height: 300px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.2);
+  display: none;
+}
+.body-container .card-item .img-container {
+  width: 100%;
+  height: 80%;
+}
+.body-container .card-item .img-container img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+}
+.body-container .card-item .product-details {
+  text-align: left;
+}
+.body-container .card-item .product-details .product-name {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.body-container .card-item .product-details .product-price {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.body-container .card-item .product-details h5 {
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.body-container .show {
+  display: block;
+}
+.body-container .hidden {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
