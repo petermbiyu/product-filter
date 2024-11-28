@@ -1,0 +1,25 @@
+@include medium-size {
+    .body-container {
+
+        justify-content: center;
+        gap: 1rem;
+
+    }
+
+    .home-container {
+        .search {
+
+            input {
+                max-width: 70%;
+            }
+
+            button {
+                padding: 10px;
+                margin-left: 0;
+
+
+            }
+        }
+
+    }
+}
