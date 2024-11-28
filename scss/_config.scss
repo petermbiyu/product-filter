@@ -9,6 +9,7 @@ $primary-color: #222;
 
 }
 
+
 @mixin transition {
     transition: all 0.4s ease;
 }
@@ -24,7 +25,10 @@ button {
     cursor: pointer;
     @include transition;
 
+}
 
-
-
+@mixin medium-size {
+    @media screen and (max-width=480px) {
+        @content;
+    }
 }
