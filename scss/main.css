@@ -78,7 +78,6 @@ body {
   }
   .body-container .card-item {
     margin: auto;
-    border: 2px solid black;
   }
   .home-container .search input {
     max-width: 70%;
