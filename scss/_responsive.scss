@@ -2,7 +2,14 @@
     .body-container {
 
         justify-content: center;
-        gap: 1rem;
+        overflow: auto;
+
+
+
+        .card-item {
+            margin: auto;
+            border: 2px solid black;
+        }
 
     }
 

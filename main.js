@@ -116,6 +116,10 @@ data.map((items) => {
 
   //click the buttons to filter by category
 
+  window.addEventListener("load", () => {
+    card.classList.add("show");
+  });
+
   allItem.addEventListener("click", () => {
     card.classList.remove("show");
     card.classList.add("show");

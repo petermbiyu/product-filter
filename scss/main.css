@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+  display: none;
+}
 
 button {
   font-family: inherit;
@@ -71,7 +74,11 @@ body {
 @media screen and (max-width: 480px) {
   .body-container {
     justify-content: center;
-    gap: 1rem;
+    overflow: auto;
+  }
+  .body-container .card-item {
+    margin: auto;
+    border: 2px solid black;
   }
   .home-container .search input {
     max-width: 70%;
@@ -97,7 +104,6 @@ body {
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.2);
   display: none;
-  margin: auto;
 }
 .body-container .card-item .img-container {
   width: 100%;
